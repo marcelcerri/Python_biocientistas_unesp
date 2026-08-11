@@ -8,14 +8,14 @@ Este material foi desenvolvido para demonstrar como a programação pode ser uma
 
 Neste primeiro módulo, focamos na ambientação e nos conceitos básicos da linguagem, sempre com aplicações voltadas para a biotecnologia:
 
-* **O Ecossistema Python na Ciência:** Introdução a bibliotecas como Biopython, Pandas e NumPy.
+* **O Ecossistema Python na Ciência:** Mostra a potencialidade das bibliotecas como Biopython, Pandas e NumPy.
 * **O Ambiente Google Colab:** Como utilizar a ferramenta como um verdadeiro Caderno de Laboratório Eletrônico (inserção de textos em Markdown, equações em LaTeX e imagens).
 * **Fundamentos da Linguagem:**
   * Operações matemáticas básicas e variáveis.
   * Operadores lógicos (aplicados ao controle de parâmetros em biorreatores).
   * Manipulação de Strings e *slicing* (aplicado à bioinformática e sequências de DNA).
   * Formatação moderna de textos (f-strings) para relatórios experimentais.
-* **Exercícios Práticos:** Dimensionamento de reatores, cálculo de médias de triplicatas analíticas e avaliação de produtividade celular.
+* **Exercícios Práticos:** 
 
 ## 🚀 Como acessar e executar as aulas
 
@@ -23,7 +23,7 @@ Não é necessário instalar nenhum software no seu computador para acompanhar e
 
 Para abrir a Aula 01 e executar os códigos, basta clicar no botão abaixo:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](LINK_DO_SEU_NOTEBOOK_AQUI)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Capítulo_01_Introdução_ao_Python.ipynb)
 
 > **Nota para os alunos:** Após abrir o arquivo no Colab, lembre-se de clicar em `Arquivo > Salvar uma cópia no Drive` para que você possa fazer suas próprias anotações e resolver os exercícios propostos sem perder o seu progresso.
 
