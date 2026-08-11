@@ -13,7 +13,7 @@ Neste primeiro módulo, focamos na ambientação e nos conceitos básicos da lin
 * **Fundamentos da Linguagem:**
   * Operações matemáticas básicas e variáveis.
   * Operadores lógicos (aplicados ao controle de parâmetros em biorreatores).
-  * Manipulação de Strings e *slicing* (aplicado à bioinformática e sequências de DNA).
+  * Manipulação de Strings e *slicing*.
   * Formatação moderna de textos (f-strings) para relatórios experimentais.
 * **Exercícios Práticos:** 
 
