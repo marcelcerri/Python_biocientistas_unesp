@@ -37,3 +37,4 @@ Para abrir a Aula 01 e executar os códigos, basta clicar no botão abaixo:
 **Professor Responsável:** Marcel Otavio Cerri  
 **Departamento:** Engenharia de Bioprocessos e Biotecnologia  
 **Instituição:** UNESP - Universidade Estadual Paulista (Campus Araraquara)
+**Contato:** marcel.cerri@unesp.br
