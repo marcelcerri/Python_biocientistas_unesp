@@ -27,7 +27,7 @@ Neste primeiro módulo, focamos na ambientação e nos conceitos básicos da lin
 * Conceitos fundamentais de **contadores** e **acumuladores** (ex: cálculo do fatorial de um número).
 * Como interromper repetições infinitas ou baseadas em gatilhos utilizando o comando `break`.
 
-### 🚀 Desafio Prático: Simulador de Crescimento Microbiano
+### Desafio Prático: Simulador de Crescimento Microbiano
 No fim do notebook, consolidamos o aprendizado com um desafio aplicado à Engenharia de Bioprocessos. O aluno deve interagir com um algoritmo que estima o crescimento exponencial de uma cultura celular, calculando quantas gerações são necessárias para que um inóculo inicial atinja uma população alvo específica.
 
 
