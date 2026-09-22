@@ -87,16 +87,16 @@ Nesta aula prática, consolidamos a integração entre tratamento estatístico r
     *   Análise crítica dos parâmetros ajustados frente à literatura de engenharia de bioprocessos.
 *   **Visualização de Incertezas:**
     *   Criação de gráficos com qualidade de publicação, incluindo sombreamento para limites de confiança (`fill_between`) e aplicação de barras de erro representativas (`errorbar`).
-## 📂 Arquivos de Apoio (Download Obrigatório)
+### 📂 Arquivos de Apoio (Download Obrigatório)
 Para executar os códigos desta aula, você precisará baixar as planilhas abaixo que contêm os dados brutos:
 * 🔗 [media_desvio_dados.xlsx](./media_desvio_dados.xlsx) - *Dados para a prática de Regressão Linear.*
 * 🔗 [dados_kla.xlsx](./dados_kla.xlsx) - *Dados experimentais para o Desafio Prático.*
 
-📚 **Conteúdo da Aula 06 - Análise e Manipulação de Dados com Pandas**
+##📚 **Conteúdo da Aula 06 - Análise e Manipulação de Dados com Pandas**
 
 Nesta sexta aula, introduzimos a biblioteca Pandas, uma ferramenta essencial para a organização, manipulação e análise de dados tabulares aplicados às ciências biológicas e clínicas.
 
-📌 **Tópicos Abordados**
+###📌 **Tópicos Abordados**
 
 * **Estruturação Inicial de Dados:** Criação de DataFrames a partir de dicionários do Python para estruturar resultados de laboratório, como IDs de amostras, tipos celulares (ex: HeLa, Fibroblasto), parâmetros de cultivo (pH) e contagens celulares.
 * **Inspeção e Exploração:** Utilização de métodos fundamentais para conhecer o conjunto de dados, incluindo `.head()` para checar as primeiras linhas, `.info()` para obter um resumo técnico dos tipos de dados, `.describe()` para gerar estatísticas básicas das variáveis numéricas e `.shape` para verificar o tamanho da matriz de dados.
@@ -105,7 +105,7 @@ Nesta sexta aula, introduzimos a biblioteca Pandas, uma ferramenta essencial par
 * **Importação de Arquivos Externos:** O processo de carregar bases de dados reais utilizando `pd.read_csv`, demonstrado através da leitura direta de strings simuladas e da importação do arquivo externo `dados_trat.csv`.
 * **Agregação e Visualização Integrada:** O uso do método `.groupby()` para agrupar pacientes de acordo com o tratamento (Placebo, Drug A, Drug B) e calcular a mudança média de biomarcadores. O módulo também engloba a visualização estatística integrada com Matplotlib e Seaborn, criando gráficos de barras de eficácia, gráficos de barras empilhadas para contagem de efeitos colaterais e gráficos de dispersão (scatter plots) para avaliar a relação entre idade e nível inicial do biomarcador.
 
-📂 **Arquivos de Apoio (Download Obrigatório)**
+###📂 **Arquivos de Apoio (Download Obrigatório)**
 
 Para executar os códigos desta aula, você precisará baixar o arquivo abaixo que contém os dados brutos:
 🔗 [dados_trat.csv](link_para_o_arquivo_aqui) - Dados clínicos (incluindo ID do paciente, grupo, idade, níveis de biomarcadores inicial/final e efeitos colaterais reportados) utilizados para a prática de importação e agrupamento estatístico.
