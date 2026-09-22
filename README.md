@@ -92,6 +92,24 @@ Para executar os códigos desta aula, você precisará baixar as planilhas abaix
 * 🔗 [media_desvio_dados.xlsx](./media_desvio_dados.xlsx) - *Dados para a prática de Regressão Linear.*
 * 🔗 [dados_kla.xlsx](./dados_kla.xlsx) - *Dados experimentais para o Desafio Prático.*
 
+📚 **Conteúdo da Aula 06 - Análise e Manipulação de Dados com Pandas**
+
+Nesta sexta aula, introduzimos a biblioteca Pandas, uma ferramenta essencial para a organização, manipulação e análise de dados tabulares aplicados às ciências biológicas e clínicas.
+
+📌 **Tópicos Abordados**
+
+* **Estruturação Inicial de Dados:** Criação de DataFrames a partir de dicionários do Python para estruturar resultados de laboratório, como IDs de amostras, tipos celulares (ex: HeLa, Fibroblasto), parâmetros de cultivo (pH) e contagens celulares.
+* **Inspeção e Exploração:** Utilização de métodos fundamentais para conhecer o conjunto de dados, incluindo `.head()` para checar as primeiras linhas, `.info()` para obter um resumo técnico dos tipos de dados, `.describe()` para gerar estatísticas básicas das variáveis numéricas e `.shape` para verificar o tamanho da matriz de dados.
+* **Seleção e Filtragem Condicional:** Como selecionar colunas de interesse e, principalmente, como usar a poderosa função `.loc` para filtrar linhas com base em condições biológicas (ex: isolar apenas amostras do tipo 'HeLa' ou com contagem celular acima de 120).
+* **Transformação de Dados:** Criação de novas colunas categóricas baseadas em limites numéricos de outras colunas utilizando a função `np.where`, além da ordenação do conjunto de dados do maior para o menor com `.sort_values()`.
+* **Importação de Arquivos Externos:** O processo de carregar bases de dados reais utilizando `pd.read_csv`, demonstrado através da leitura direta de strings simuladas e da importação do arquivo externo `dados_trat.csv`.
+* **Agregação e Visualização Integrada:** O uso do método `.groupby()` para agrupar pacientes de acordo com o tratamento (Placebo, Drug A, Drug B) e calcular a mudança média de biomarcadores. O módulo também engloba a visualização estatística integrada com Matplotlib e Seaborn, criando gráficos de barras de eficácia, gráficos de barras empilhadas para contagem de efeitos colaterais e gráficos de dispersão (scatter plots) para avaliar a relação entre idade e nível inicial do biomarcador.
+
+📂 **Arquivos de Apoio (Download Obrigatório)**
+
+Para executar os códigos desta aula, você precisará baixar o arquivo abaixo que contém os dados brutos:
+🔗 [dados_trat.csv](link_para_o_arquivo_aqui) - Dados clínicos (incluindo ID do paciente, grupo, idade, níveis de biomarcadores inicial/final e efeitos colaterais reportados) utilizados para a prática de importação e agrupamento estatístico.
+
 ## 🚀 Como acessar e executar as aulas
 
 Não é necessário instalar nenhum software no seu computador para acompanhar esta disciplina. Utilizaremos o **Google Colaboratory**, que roda o código Python diretamente na nuvem pelo seu navegador.
@@ -115,6 +133,10 @@ Para abrir a Aula 04 e executar os códigos, basta clicar no botão abaixo:
 Para abrir a Aula 05 e executar os códigos, basta clicar no botão abaixo:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_05_importando_dados_ajuste.ipynb)
+
+Para abrir a Aula 06 e executar os códigos, basta clicar no botão abaixo:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_06_Pandas.ipynb)
 
 
 > **Nota para os alunos:** Após abrir o arquivo no Colab, lembre-se de clicar em `Arquivo > Salvar uma cópia no Drive` para que você possa fazer suas próprias anotações e resolver os exercícios propostos sem perder o seu progresso.
