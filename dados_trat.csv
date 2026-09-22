@@ -1,0 +1,31 @@
+Patient_ID,Group,Gender,Age,Biomarker_Initial,Biomarker_Final,Reported_Side_Effect
+P001,Placebo,Female,55,12.5,12.8,No
+P002,Drug A,Male,62,15.1,11.5,Yes
+P003,Drug B,Male,48,11.8,7.1,No
+P004,Placebo,Male,68,16.2,17.1,No
+P005,Drug A,Female,51,14.5,10.2,No
+P006,Drug B,Female,59,13.9,8.5,Yes
+P007,Placebo,Female,61,14.8,14.5,Yes
+P008,Drug A,Male,53,13.2,9.8,No
+P009,Drug B,Male,65,15.8,9.1,Yes
+P010,Placebo,Male,57,13.5,14.0,No
+P011,Drug A,Female,60,16.0,12.1,Yes
+P012,Drug B,Female,50,12.1,7.5,No
+P013,Placebo,Female,63,15.5,15.8,No
+P014,Drug A,Male,58,14.9,11.2,No
+P015,Drug B,Male,56,13.3,8.0,No
+P016,Placebo,Male,52,12.9,13.5,No
+P017,Drug A,Female,64,16.5,12.5,Yes
+P018,Drug B,Female,49,11.5,6.9,No
+P019,Placebo,Male,66,16.8,16.5,No
+P020,Drug A,Male,54,14.1,10.8,No
+P021,Drug B,Male,61,15.2,8.8,Yes
+P022,Placebo,Female,58,14.2,14.8,Yes
+P023,Drug A,Female,57,15.3,11.8,No
+P024,Drug B,Female,53,12.8,7.9,No
+P025,Placebo,Male,60,15.0,15.2,No
+P026,Drug A,Male,63,16.1,12.3,Yes
+P027,Drug B,Male,51,12.5,7.7,No
+P028,Placebo,Female,56,13.8,14.1,No
+P029,Drug A,Female,59,15.7,11.9,No
+P030,Drug B,Female,55,13.1,8.2,Yes
