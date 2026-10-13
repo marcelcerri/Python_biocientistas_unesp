@@ -110,6 +110,16 @@ Nesta sexta aula, introduzimos a biblioteca Pandas, uma ferramenta essencial par
 Para executar os códigos desta aula, você precisará baixar o arquivo abaixo que contém os dados brutos:
 🔗 [dados_trat.csv](link_para_o_arquivo_aqui) - Dados clínicos (incluindo ID do paciente, grupo, idade, níveis de biomarcadores inicial/final e efeitos colaterais reportados) utilizados para a prática de importação e agrupamento estatístico.
 
+## 📚 Conteúdo da Aula 08 - Machine Learning e Previsão de Dados (Desafio Titanic)
+Nesta oitava aula, introduzimos o Scikit-Learn, a principal biblioteca de Machine Learning em Python, servindo como ponte entre a manipulação de dados com Pandas e a modelagem preditiva. Utilizando o clássico dataset de passageiros do Titanic, o objetivo é estruturar dados reais para prever as taxas de sobrevivência.
+
+### 📌 Tópicos Abordados   
+Fundamentos do Scikit-Learn: Compreensão das regras estritas da biblioteca (necessidade de dados estritamente numéricos e a proibição de valores vazios/nulos) e a importância de dividir os dados em Features (variáveis independentes - X) e Target (variável alvo - y).  
+Pré-processamento de Dados (Pandas):Limpeza e Imputação: Abordagens para lidar com dados faltantes, preenchendo colunas como Idade e Tarifa com a mediana, Embarque com a moda, e descartando atributos muito incompletos como Cabine.   Encoding de Variáveis: Transformação de textos para formatos matemáticos mapeando gêneros binários (0 e 1) e utilizando a técnica de "One-Hot Encoding" com a função pd.get_dummies para transformar as categorias do porto de embarque em colunas independentes.  
+Modelagem Preditiva com Random Forest:Introdução ao conceito de Árvores de Decisão e como o modelo de Ensemble (RandomForestClassifier) resolve problemas complexos criando uma floresta de múltiplas decisões combinadas.   Fluxo prático de treinamento utilizando o comando model.fit() e a execução de predições com model.predict().  
+Exportação de Submissões: Organização dos resultados em um novo DataFrame e exportação automatizada para formato Excel/CSV (submission.csv) para validação em plataformas competitivas como o Kaggle.  
+Arquivos de Apoio (Download Obrigatório):🔗 train.csv e 🔗 test.csv - Datasets contendo os perfis demográficos e socioeconômicos dos passageiros.   
+
 ## 🚀 Como acessar e executar as aulas
 
 Não é necessário instalar nenhum software no seu computador para acompanhar esta disciplina. Utilizaremos o **Google Colaboratory**, que roda o código Python diretamente na nuvem pelo seu navegador.
@@ -137,6 +147,11 @@ Para abrir a Aula 05 e executar os códigos, basta clicar no botão abaixo:
 Para abrir a Aula 06 e executar os códigos, basta clicar no botão abaixo:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_06_Pandas.ipynb)
+
+Para abrir a Aula 08 e executar os códigos, basta clicar no botão abaixo:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_08_Titanic.ipynb)
+
 
 
 > **Nota para os alunos:** Após abrir o arquivo no Colab, lembre-se de clicar em `Arquivo > Salvar uma cópia no Drive` para que você possa fazer suas próprias anotações e resolver os exercícios propostos sem perder o seu progresso.
