@@ -114,10 +114,12 @@ Para executar os códigos desta aula, você precisará baixar o arquivo abaixo q
 Nesta oitava aula, introduzimos o Scikit-Learn, a principal biblioteca de Machine Learning em Python, servindo como ponte entre a manipulação de dados com Pandas e a modelagem preditiva. Utilizando o clássico dataset de passageiros do Titanic, o objetivo é estruturar dados reais para prever as taxas de sobrevivência.
 
 ### 📌 Tópicos Abordados   
-Fundamentos do Scikit-Learn: Compreensão das regras estritas da biblioteca (necessidade de dados estritamente numéricos e a proibição de valores vazios/nulos) e a importância de dividir os dados em Features (variáveis independentes - X) e Target (variável alvo - y).  
-Pré-processamento de Dados (Pandas):Limpeza e Imputação: Abordagens para lidar com dados faltantes, preenchendo colunas como Idade e Tarifa com a mediana, Embarque com a moda, e descartando atributos muito incompletos como Cabine.   Encoding de Variáveis: Transformação de textos para formatos matemáticos mapeando gêneros binários (0 e 1) e utilizando a técnica de "One-Hot Encoding" com a função pd.get_dummies para transformar as categorias do porto de embarque em colunas independentes.  
-Modelagem Preditiva com Random Forest:Introdução ao conceito de Árvores de Decisão e como o modelo de Ensemble (RandomForestClassifier) resolve problemas complexos criando uma floresta de múltiplas decisões combinadas.   Fluxo prático de treinamento utilizando o comando model.fit() e a execução de predições com model.predict().  
-Exportação de Submissões: Organização dos resultados em um novo DataFrame e exportação automatizada para formato Excel/CSV (submission.csv) para validação em plataformas competitivas como o Kaggle.  
+* Fundamentos do Scikit-Learn: Compreensão das regras estritas da biblioteca (necessidade de dados estritamente numéricos e a proibição de valores vazios/nulos) e a importância de dividir os dados em Features (variáveis independentes - X) e Target (variável alvo - y).  
+* Pré-processamento de Dados (Pandas):Limpeza e Imputação: Abordagens para lidar com dados faltantes, preenchendo colunas como Idade e Tarifa com a mediana, Embarque com a moda, e descartando atributos muito incompletos como Cabine.
+* Encoding de Variáveis: Transformação de textos para formatos matemáticos mapeando gêneros binários (0 e 1) e utilizando a técnica de "One-Hot Encoding" com a função pd.get_dummies para transformar as categorias do porto de embarque em colunas independentes.  
+* Modelagem Preditiva com Random Forest:Introdução ao conceito de Árvores de Decisão e como o modelo de Ensemble (RandomForestClassifier) resolve problemas complexos criando uma floresta de múltiplas decisões combinadas.
+* Fluxo prático de treinamento utilizando o comando model.fit() e a execução de predições com model.predict().  
+* Exportação de Submissões: Organização dos resultados em um novo DataFrame e exportação automatizada para formato Excel/CSV (submission.csv) para validação em plataformas competitivas como o Kaggle.  
 Arquivos de Apoio (Download Obrigatório):🔗 train.csv e 🔗 test.csv - Datasets contendo os perfis demográficos e socioeconômicos dos passageiros.   
 
 ## 🚀 Como acessar e executar as aulas
