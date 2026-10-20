@@ -120,7 +120,31 @@ Nesta oitava aula, introduzimos o Scikit-Learn, a principal biblioteca de Machin
 * Modelagem Preditiva com Random Forest:Introdução ao conceito de Árvores de Decisão e como o modelo de Ensemble (RandomForestClassifier) resolve problemas complexos criando uma floresta de múltiplas decisões combinadas.
 * Fluxo prático de treinamento utilizando o comando model.fit() e a execução de predições com model.predict().  
 * Exportação de Submissões: Organização dos resultados em um novo DataFrame e exportação automatizada para formato Excel/CSV (submission.csv) para validação em plataformas competitivas como o Kaggle.  
-Arquivos de Apoio (Download Obrigatório):🔗 train.csv e 🔗 test.csv - Datasets contendo os perfis demográficos e socioeconômicos dos passageiros.   
+Arquivos de Apoio (Download Obrigatório):🔗 train.csv e 🔗 test.csv - Datasets contendo os perfis demográficos e socioeconômicos dos passageiros.
+
+## 📚 Conteúdo da Aula 09 - Introdução à Análise de Imagens Aplicada à Bioquímica e Bioprocessos
+Nesta nona aula, exploramos como uma câmera acoplada a um microscópio ou fotodocumentador funciona como um **espectrofotômetro espacial**, transformando amostras biológicas em matrizes numéricas tratáveis por computação.
+
+### 📌 Tópicos Abordados
+- A Imagem como Matriz Numérica:
+  - O conceito de pixels e matrizes 2D em escala de cinza e 3D em imagens coloridas ou multicanal (microscopia de fluorescência).
+  - Aplicações diretas em bioprocessos (morfologia celular e contagem), hidrodinâmica (diâmetro de bolhas) e bioquímica analítica (densitometria de géis).
+- Construção de Amostras Virtuais e Simulação Óptica:
+  - Geração de matrizes de coordenadas com np.ogrid e broadcasting no NumPy.
+  - Aplicação de máscaras booleanas com inequações de circunferência (`<= R²`) para modelagem de células.
+  - Simulação de imperfeições reais: desfoque óptico por difração (Filtro Gaussiano) e ruído de fundo do sensor (distribuição normal com `np.random.normal`).
+- Pipeline Clássico de Segmentação e Quantificação:
+  - Análise de histogramas de intensidade e aplicação automática do Método de Otsu (`filters.threshold_otsu`) para separação entre fundo e objeto.
+  - Limpeza morfológica (`morphology.remove_small_objects`) para eliminação de ruídos residuais.
+  - Rotulagem de componentes conexos (`measure.label`) para individualização e contagem de colônias ou células.
+- Extração de Propriedades Geométricas e Métricas (`measure.regionprops`):
+  - Mensuração automatizada de área projetada ($\text{px}^2$), diâmetro equivalente e intensidade média de fluorescência.
+  - Processamento de fotografias reais de placas de Petri (recorte automático da borda da placa e remoção de fundos externos).
+- Organização e Exportação de Dados (Pandas):
+  - Estruturação dos parâmetros de cada colônia detectada em DataFrames e exportação automatizada para relatórios tabulares em formato CSV.
+
+📂 Arquivos de Apoio (Exemplos Práticos)
+- Práticas desenvolvidas utilizando imagens simuladas e fotografias reais de placas com colônias de micro-organismos (UFCs).
 
 ## 🚀 Como acessar e executar as aulas
 
@@ -154,6 +178,9 @@ Para abrir a Aula 08 e executar os códigos, basta clicar no botão abaixo:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_08_Titanic.ipynb)
 
+Para abrir a Aula 09 e executar os códigos, basta clicar no botão abaixo:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_08_Imagens.ipynb)
 
 
 > **Nota para os alunos:** Após abrir o arquivo no Colab, lembre-se de clicar em `Arquivo > Salvar uma cópia no Drive` para que você possa fazer suas próprias anotações e resolver os exercícios propostos sem perder o seu progresso.
