@@ -146,6 +146,25 @@ Nesta nona aula, exploramos como uma câmera acoplada a um microscópio ou fotod
 📂 Arquivos de Apoio (Exemplos Práticos)
 - Práticas desenvolvidas utilizando imagens simuladas e fotografias reais de placas com colônias de micro-organismos (UFCs).
 
+## 📚 Conteúdo da Aula 10 - Introdução à Farmacocinética e Drug Delivery
+
+Nesta décima aula, unimos a Físico-Química e a Programação Científica para simular a liberação de fármacos e compreender o comportamento dinâmico de medicamentos no organismo.
+
+### 📌 Tópicos Abordados
+- **Difusão Transdérmica (Primeira Lei de Fick):** 
+  - Fundamentação teórica do transporte através do estrato córneo.
+  - Automatização do cálculo do fluxo transdérmico ($J$) e da quantidade cumulativa permeada ($Q$) em função do tempo, do coeficiente de difusão ($D$) e de partição ($K$).
+- **Estruturação e Simulação Temporal:** 
+  - Geração de eixos de tempo contínuos com NumPy (`np.linspace`).
+  - Consolidação e estruturação de simulações comparativas (ex: alta vs. baixa lipofilicidade) utilizando Pandas DataFrames.
+- **Farmacocinética Dinâmica com Equações Diferenciais Ordinárias (EDOs):** 
+  - Tradução da matemática para código Python no modelo de um compartimento com absorção de primeira ordem.
+  - Aplicação da função `odeint` (biblioteca `scipy.integrate`) para simular as concentrações no local de aplicação e na corrente sanguínea simultaneamente.
+- **Análise Crítica e Visualização Analítica:** 
+  - Determinação algorítmica de parâmetros críticos da indústria farmacêutica: Pico Plasmático ($C_{max}$) e Tempo Máximo ($T_{max}$) utilizando `np.argmax`.
+  - Construção de curvas de liberação plasmática de alta qualidade no Matplotlib.
+  - Avaliação de cenários clínicos reais em exercícios práticos, como os riscos em pacientes com insuficiência renal (alteração da taxa de eliminação $k_e$) e o efeito de promotores de permeação químicos (alteração da taxa de absorção $k_a$).
+
 ## 🚀 Como acessar e executar as aulas
 
 Não é necessário instalar nenhum software no seu computador para acompanhar esta disciplina. Utilizaremos o **Google Colaboratory**, que roda o código Python diretamente na nuvem pelo seu navegador.
@@ -182,6 +201,9 @@ Para abrir a Aula 09 e executar os códigos, basta clicar no botão abaixo:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula09_Imagens.ipynb)
 
+Para abrir a Aula 10 e executar os códigos, basta clicar no botão abaixo:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_10_Drug_Delivery_Farmacocinetica.ipynb)
 
 > **Nota para os alunos:** Após abrir o arquivo no Colab, lembre-se de clicar em `Arquivo > Salvar uma cópia no Drive` para que você possa fazer suas próprias anotações e resolver os exercícios propostos sem perder o seu progresso.
 
