@@ -203,7 +203,7 @@ Para abrir a Aula 09 e executar os códigos, basta clicar no botão abaixo:
 
 Para abrir a Aula 10 e executar os códigos, basta clicar no botão abaixo:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_10_Drug_Delivery_Farmacocinetica.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_10_Drug_Delivery.ipynb)
 
 > **Nota para os alunos:** Após abrir o arquivo no Colab, lembre-se de clicar em `Arquivo > Salvar uma cópia no Drive` para que você possa fazer suas próprias anotações e resolver os exercícios propostos sem perder o seu progresso.
 
